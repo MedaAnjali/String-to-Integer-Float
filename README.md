@@ -1,20 +1,20 @@
-User Defined atoi and atof
+# User Defined atoi and atof
 
-Project Description
+## Project Description
 
-This project implements user-defined versions of the standard "atoi()" and "atof()" functions in C without using the built-in library functions.
+This project implements user-defined versions of the standard `atoi()` and `atof()` functions in C without using the built-in library functions.
 
-Functions
+## Functions
 
-my_atoi()
+### my_atoi()
 
 Converts a numeric string into an integer value.
 
-my_atof()
+### my_atof()
 
 Converts a numeric string into a floating-point value.
 
-Features
+## Features
 
 - Converts positive integer strings
 - Converts negative integer strings
@@ -22,29 +22,35 @@ Features
 - Converts negative floating-point strings
 - Handles invalid input by returning 0
 
-Sample Input
+## Sample Input
 
+```
 Enter a string:
 123.456
+```
 
-Sample Output
+## Sample Output
 
+```
 Integer = 123
 Float = 123.456000
+```
 
-Technologies Used
+## Technologies Used
 
 - C Programming
 - Pointers
 - Functions
 - Strings
 
-How to Compile
+## How to Compile
 
+```bash
 gcc atoi_atof.c
+```
 
-How to Run
+## How to Run
 
+```bash
 ./a.out
-
- 
+```
